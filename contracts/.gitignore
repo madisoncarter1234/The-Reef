@@ -1,0 +1,9 @@
+# Foundry
+cache/
+out/
+
+# Libs - install with `forge install`
+lib/
+
+# Broadcast (contains deploy tx details)
+broadcast/

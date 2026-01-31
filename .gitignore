@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Build outputs
+dist/
+out/
+.next/
+build/
+
+# Database
+*.db
+*.db-journal
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Foundry
+contracts/cache/
+contracts/out/
+
+# Private keys - never commit these
+*.pem
+*.key
